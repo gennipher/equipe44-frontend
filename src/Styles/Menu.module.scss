@@ -1,0 +1,48 @@
+@import '~bootstrap/scss/bootstrap';
+
+$standardSpace: 16px;
+$fontStyle: $standardSpace sans-serif;
+
+$primaryColor: #000000;
+$secondColor: #686868;
+$lightGrayColor: #F5F5F5;
+$darkPurpleColor: #410F79;
+$greenColor: #58AF00;
+$pinkColor: #C91ECC;
+$darkPinkColor: #AC0053;
+$bluePoolColor: #08B4B4;
+$blueColor: #08A3E5;
+$darkBlueColor: #361ECC;
+$orangeColor: #EC7F00;
+$redColor: #B60000;
+$whiteColor: #ffff;
+$shadow: 0 0 5px rgba(51, 51, 51, 0.2);
+$blackShadow: 0 0 5px #00000090;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: $fontStyle;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navContainer {
+    background-color: $darkPurpleColor;
+}
+
+.navLink {
+    color: $whiteColor;
+}
+
+.navLink:hover {
+    color: $whiteColor;
+    text-decoration: underline;    
+}
