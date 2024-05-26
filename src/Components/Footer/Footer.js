@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Footer.module.scss'; // Usando 'styles' para importar o CSS Module
+import styles from '../../Styles/Footer.module.scss'; 
 
 function Footer() {
   return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from '../../Styles/Home.module.scss'; 
 import Menu from '../../Components/Menu/Menu';
+import Footer from "../../Components/Footer/Footer";
+
 import { Button } from 'react-bootstrap';
 import Imagem01 from "../../assets/image01.png";
 import Imagem02 from "../../assets/image02.png";
@@ -193,6 +195,8 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <Footer />
     </div>
   );
 }

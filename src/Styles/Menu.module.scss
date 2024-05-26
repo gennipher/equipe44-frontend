@@ -4,7 +4,7 @@ $fontStyle: $standardSpace sans-serif;
 $primaryColor: #000000;
 $secondColor: #686868;
 $lightGrayColor: #F5F5F5;
-$darkPurpleColor: #410F79;
+$darkPurpleColor: #5902C8;
 $greenColor: #58AF00;
 $pinkColor: #C91ECC;
 $darkPinkColor: #AC0053;
@@ -38,9 +38,27 @@ body {
 
 .navLink {
     color: $whiteColor;
+    text-decoration: none;    
 }
 
 .navLink:hover {
     color: $whiteColor;
-    text-decoration: underline;    
+    text-decoration: underline; 
+}
+
+.navContainerLeft {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.navContainerLeft, .navContainerRight {
+    display: flex;
+    align-items: center;
 }
