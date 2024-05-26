@@ -36,7 +36,7 @@ body {
 .topSection {
     background-color: $purpleColor;
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -60,7 +60,7 @@ body {
     }
 
     img {
-        height: 60vh;
+        height: 80vh;
     }
 
     .topSectionBtn {
@@ -159,6 +159,9 @@ body {
     height: 50vh;
     padding: 50px;
     align-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 
     .patrocinadoresSectionText {
         display: flex;
@@ -181,8 +184,196 @@ body {
     }
 }
 
-.bottomSection {
-    background-color: $purpleColor;
+.eventoSection {
+    background-color: #F9F9F9;
     width: 100%;
-    height: 60vh;
+    height: 70vh;
+    padding: 50px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .eventoSectionText {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+
+        span {
+            font-size: 16px;
+        }
+
+        h1 {
+            font-weight: 700;
+            color: $purpleColor;
+            margin-bottom: 20px;
+        }
+
+        p {
+            text-align: left;
+        }
+
+    }
+
+    .eventoSectionImagens {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        
+        .eventoSectionImagensCouple {
+            margin: 24px;
+            display: flex;
+        }
+    }
+
+    .eventoSectionTextPurple {
+        color: $purpleColor;
+        font-weight: 600;
+    }
+
+    .eventoSectionBtn {
+        margin-top: 20px;
+    }
+
+    .eventoSectionBtnBlack {
+        background-color: $primaryColor;
+        color: $whiteColor;
+        border-radius: 40px;
+        padding: 24px;
+        margin-right: 16px;
+    }
+
+    .eventoSectionBtnWhite {
+        background-color: $whiteColor;
+        color: $primaryColor;
+        border-radius: 40px;
+        padding: 24px;
+    }
+}
+
+.womantechSection {
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 70vh;
+    padding: 50px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .womantechSectionText {
+        padding: 20px 70px;
+
+    }
+
+    .womantechSectionTextRight {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        h1 {
+            color: $purpleColor;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+
+        .womantechSectionBtn {
+            margin-top: 20px;
+        }
+    
+        .womantechSectionBtnBlack {
+            background-color: $primaryColor;
+            color: $whiteColor;
+            border-radius: 40px;
+            padding: 24px;
+            margin-right: 16px;
+        }
+    
+        .womantechSectionBtnWhite {
+            background-color: $whiteColor;
+            color: $primaryColor;
+            border-radius: 40px;
+            padding: 24px;
+        }
+
+    }
+}
+
+.voluntariasSection {
+    background-color: #F9F9F9;
+    width: 100%;
+    height: 70vh;
+    padding: 50px;
+    align-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .voluntariasSectionCards {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+
+        .voluntariasSectionCard {
+            display: flex;
+            flex-direction: column;
+            background-color: #1B0931;
+            border-radius: 20px;
+            color: $whiteColor;
+            padding: 20px 20px;
+            width: 35vh;
+        }
+
+        .voluntariasSectionBtnWhite {
+            background-color: $whiteColor;
+            color: $primaryColor;
+            border-radius: 40px;
+        }
+    }
+
+    .voluntariasSectionText {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .voluntariasSectionTextRight {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 0 40px;
+
+        h1 {
+            color: $purpleColor;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        h3 {
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+    }
+
+    .voluntariasSectionBtnPurple {
+        padding: 24px;
+        background-color: $purpleColor;
+        color: $whiteColor;
+        width: 35vh;
+        border-radius: 20px;
+        display: flex;
+        width: fit-content;
+    }
+
 }
