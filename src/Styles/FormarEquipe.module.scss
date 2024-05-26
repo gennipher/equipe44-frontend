@@ -1,0 +1,105 @@
+$standardSpace: 16px;
+$fontStyle: $standardSpace sans-serif;
+
+$primaryColor: #000000;
+$secondColor: #686868;
+$lightGrayColor: #F5F5F5;
+$darkPurpleColor: #410F79;
+$purpleColor: #5902C8;
+$greenColor: #58AF00;
+$pinkColor: #C91ECC;
+$darkPinkColor: #AC0053;
+$bluePoolColor: #08B4B4;
+$blueColor: #08A3E5;
+$darkBlueColor: #361ECC;
+$orangeColor: #EC7F00;
+$redColor: #B60000;
+$whiteColor: #ffff;
+$shadow: 0 6px 22px rgba(0, 0, 0, 0.2);
+$blackShadow: 0 5 5px #00000090;
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: $fontStyle;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #EDEEFF;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+
+.containerLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 90vh;
+
+    .containerLeftWhite {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .containerLeftPurple {
+        background-color: $purpleColor;
+        border-radius: 16px;
+        padding: 24px;
+        color: $whiteColor;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        .containerLeftPurpleTextBold {
+            font-weight: 600;
+        }
+
+        .containerLeftPurpleBtn {
+            background-color: $whiteColor;
+            color: $purpleColor;
+            border-radius: 40px;
+    
+            &:hover {
+                box-shadow: $blackShadow;
+            }
+        }
+    }
+
+    .formarEquipeCards {
+        display: flex;
+
+        .formarEquipeCard {
+            background-color: $whiteColor;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 16px;
+            margin-top: 20px;
+            padding: 20px;
+
+            .formarEquipeBtnWhite {
+                background-color: $purpleColor;
+                color: $whiteColor;
+                border-radius: 40px;
+        
+                &:hover {
+                    box-shadow: $blackShadow;
+                }
+            }
+        }
+    }
+}
