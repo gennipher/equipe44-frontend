@@ -1,11 +1,10 @@
 import styles from './App.module.scss';
+import Routes from './routes/AppRoutes';
 
 function App() {
   return (
     <div className={styles.App}>
-      <header className={styles.AppHeader}>
-        <h1>Welcome to the Tech & Game Influencers Platform</h1>
-      </header>
+      <Routes />
     </div>
   );
 }
