@@ -5,6 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import styles from '../../Styles/Menu.module.scss'
 import Button from 'react-bootstrap/Button';
 import { Link } from "react-router-dom"
+import Logo from '../../assets/logo.png'
 
 function Menu() {
   return (
@@ -17,7 +18,7 @@ function Menu() {
                 to="/" 
                 style={{textDecoration: "none", color: "white"}}
               >
-                Logo
+                <img src={Logo} />
               </Link>
             </Navbar.Brand>
             <Nav className={styles.navLinks}>
