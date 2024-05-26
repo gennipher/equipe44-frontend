@@ -5,6 +5,7 @@ import Imagem13 from '../../assets/image13.png'
 import { Button, Container } from 'react-bootstrap';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import styles from '../../Styles/FormarEquipe.module.scss'
+import { Link } from 'react-router-dom';
 
 
 function FormarEquipe() {
@@ -25,7 +26,13 @@ function FormarEquipe() {
                         Encontre jogadoras que podem ter o mesmo elo que o seu ou quem sabe a mesma personalidade. 
                         No nosso sistema de <span className={styles.containerLeftPurpleTextBold}> Matching </span>
                         você encontra quem precisa!</p>
-                        <Button className={styles.containerLeftPurpleBtn}>Encontrar jogadoras <ArrowForwardIcon /></Button>
+                        <Link 
+                            to="/formar-equipe/matching" 
+                            style={{textDecoration: "none", color: "white"}}
+                        >
+                            <Button className={styles.containerLeftPurpleBtn}>Encontrar jogadoras <ArrowForwardIcon /></Button>
+                        </Link>
+                            
                     </div>
                     <div className={styles.formarEquipeCards}>
                         <div className={styles.formarEquipeCard} style={{"margin-right": "20px"}}>
