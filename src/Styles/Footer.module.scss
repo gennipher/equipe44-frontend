@@ -1,18 +1,20 @@
 .Footer {
-    background-color: #282c34;
+    background-color: #240053;
     color: white;
     padding: 20px 0;
     text-align: center;
+    height: 40vh;
   
     .footerContent {
       display: flex;
-      flex-direction: column;
       align-items: center;
+      justify-content: space-around;
       gap: 10px;
   
       .socialMedia {
         display: flex;
-        gap: 15px;
+        flex-direction: column;
+        align-items: flex-start;
   
         a {
           color: #61dafb;
@@ -26,6 +28,8 @@
   
       .footerLinks {
         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         gap: 15px;
   
         a {
@@ -44,3 +48,14 @@
       }
     }
   }  
+
+  .footerInfo {
+    display: flex;
+    flex-direction: column;
+
+    .footerInfoContato {
+      display: flex;
+      margin: 20px;
+      justify-content: space-between;
+    }
+  }
