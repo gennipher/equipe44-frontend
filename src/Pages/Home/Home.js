@@ -49,7 +49,7 @@ function Home() {
 
       <section className={styles.firstCardSection}>
         <div className={styles.firstCardSectionText}>
-          <h4>Faça parte da  comunidade [NOME]</h4>
+          <h4>Faça parte da  comunidade PowerTech</h4>
           <span>Sinta-se à vontade participando da nossa comunidade gamer</span>
         </div>
         <div className={styles.cards}>
@@ -86,7 +86,7 @@ function Home() {
             <h1>Se torne uma proplayer com a ProWoman</h1>
           </div>
           <div className={styles.proplayerSectionTextSpan}>
-            <span>Somos um projeto da comunidade [NOME] que incentiva equipes femininas de e-sports a competirem através de mentorias, promoção de competições, incentivo financeiro e mecânico.</span>
+            <span>Somos um projeto da comunidade PowerTech que incentiva equipes femininas de e-sports a competirem através de mentorias, promoção de competições, incentivo financeiro e mecânico.</span>
           </div>
           <div className={styles.proplayerSectionTextBtn}>
             <Button className={styles.topSectionBtn} variant="primary">Quero Participar!</Button>
@@ -96,7 +96,7 @@ function Home() {
 
       <section className={styles.patrocinadoresSection}>
         <div className={styles.patrocinadoresSectionText}>
-          <h4>Empresas que apoiam e patrocinam a [NOME]</h4>
+          <h4>Empresas que apoiam e patrocinam a PowerTech</h4>
           <span>Quer apoiar a comunidade?</span>
         </div>
         <div className={styles.patrocinadoresSectionImages}>
@@ -146,7 +146,7 @@ function Home() {
               Beatriz Cardoso 
               <span style={{"margin-left": "16px", "color": "#5902C8"}}><LensIcon style={{"font-size": "6px", "margin-right": "16px"}} />Desenvolvedora front-end na Kabum!</span>
             </p>
-            <p style={{"color": "#4E4E4E", "font-style": "italic"}}>“Eu sou muito grata a ter conhecido a comunidade [NOME], entrei nela para conhecer outras mulheres para jogar e fui participando cada vez mais do grupo, até que decidi participar da iniciativa WomanTech onde consegui minha vaga na Kabum!”</p>
+            <p style={{"color": "#4E4E4E", "font-style": "italic"}}>“Eu sou muito grata a ter conhecido a comunidade PowerTech, entrei nela para conhecer outras mulheres para jogar e fui participando cada vez mais do grupo, até que decidi participar da iniciativa WomanTech onde consegui minha vaga na Kabum!”</p>
           </div>
         </div>
         <div className={styles.womantechSectionTextRight}>
